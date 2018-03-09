@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\curvedata.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\knob.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\mainwindow.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\plot.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\samplingthread.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\signaldata.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qwt-6.1.3\examples\oscilloscope\wheelbox.cpp">
+      <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="_qt\moc_knob.cpp">
+      <Filter>_qt</Filter>
+    </ClCompile>
+    <ClCompile Include="_qt\moc_mainwindow.cpp">
+      <Filter>_qt</Filter>
+    </ClCompile>
+    <ClCompile Include="_qt\moc_plot.cpp">
+      <Filter>_qt</Filter>
+    </ClCompile>
+    <ClCompile Include="_qt\moc_samplingthread.cpp">
+      <Filter>_qt</Filter>
+    </ClCompile>
+    <ClCompile Include="_qt\moc_wheelbox.cpp">
+      <Filter>_qt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\qwt-6.1.3\examples\oscilloscope\curvedata.h">
+      <Filter>example</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qwt-6.1.3\examples\oscilloscope\signaldata.h">
+      <Filter>example</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\qwt-6.1.3\examples\oscilloscope\wheelbox.h">
+      <Filter>example</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\qwt-6.1.3\examples\oscilloscope\knob.h">
+      <Filter>example</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\qwt-6.1.3\examples\oscilloscope\mainwindow.h">
+      <Filter>example</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\qwt-6.1.3\examples\oscilloscope\plot.h">
+      <Filter>example</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\qwt-6.1.3\examples\oscilloscope\samplingthread.h">
+      <Filter>example</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9349c513-ce14-4aa7-929c-504c8f377d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{445d9ef4-f872-4fe6-b3f5-aa76301de45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_qt">
+      <UniqueIdentifier>{b545a379-d98e-46aa-8e1b-10ab51318109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
